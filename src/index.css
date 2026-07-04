@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 4%;
+    --primary: 356 82% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 356 82% 39%;
+    --chart-1: 356 82% 39%;
+    --chart-2: 0 0% 14%;
+    --chart-3: 0 0% 45%;
+    --chart-4: 0 0% 96%;
+    --chart-5: 0 0% 4%;
+    --radius: 1rem;
+    --font-heading: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 356 82% 39%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-[#0F0F10] text-white font-body antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60;
+  }
+  
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/5;
+  }
+
+  .glass-light {
+    @apply bg-white/80 backdrop-blur-xl border border-black/5;
+  }
+  
+  .section-dark {
+    @apply bg-[#0F0F10];
+  }
+  
+  .section-anthracite {
+    @apply bg-[#232323];
+  }
+  
+  .section-light {
+    @apply bg-[#F5F5F7] text-[#0F0F10];
+  }
+  
+  .rpx-red {
+    @apply text-[#B5121B];
+  }
+  
+  .btn-rpx {
+    @apply bg-[#B5121B] text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 hover:bg-[#9a0f18] hover:shadow-[0_0_30px_rgba(181,18,27,0.3)];
+  }
+  
+  .btn-rpx-outline {
+    @apply border border-white/20 text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 hover:bg-white/10 hover:border-white/40;
+  }
+}
