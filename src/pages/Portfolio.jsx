@@ -12,10 +12,8 @@ const categories = [
   'Camera systemen',
   'Netwerken',
   'Audio installaties',
-  'TV installaties',
+  'Installaties',
   'Live Audio',
-  'Audio upgrades',
-  'Detailing',
 ];
 
 const projects = [
@@ -63,15 +61,6 @@ const projects = [
     location: 'Raamsdonkveer',
     image: 'https://media.db.com/images/public/6a4173a6805d7de819ea1133/c57efe521_generated_d21cb55d.png',
     aspect: 'landscape',
-  },
-  {
-    title: 'Ford Focus RS Subwoofer installatie',
-    category: 'Audio upgrades',
-    description: 'Complete audio upgrade met DSP, versterker, component speakers en subwoofer.',
-    services: ['DSP', 'Versterker', 'Component Speakers', 'Custom Sub'],
-    location: 'Goirle',
-    image: 'https://media.db.com/images/public/6a4173a6805d7de819ea1133/1d1d89e27_generated_c828d570.png',
-    aspect: 'portrait',
   },
   {
     title: 'Ceramic Coating Mercedes AMG',

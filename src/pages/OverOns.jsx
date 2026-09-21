@@ -18,7 +18,7 @@ const values = [
   {
     icon: Users,
     title: 'Onze Achtergrond',
-    description: 'Ontstaan uit passie voor techniek en kwaliteit, combineert RPX Solutions jarenlange ervaring in installaties, professionele audio en voertuigverzorging. Wat begon als een specialisme groeide uit tot een veelzijdig bedrijf dat meerdere technische disciplines onder één dak verenigt.',
+    description: 'Ontstaan uit passie voor techniek en kwaliteit, combineert RPX Solutions jarenlange ervaring in installaties en professionele audio. Wat begon als een hobby groeide uit tot een veelzijdig bedrijf dat zich specialiseert in deze twee aandachtsgebieden.',
   },
   {
     icon: Heart,
@@ -28,7 +28,7 @@ const values = [
   {
     icon: Shield,
     title: 'Waarom RPX',
-    description: 'Door meerdere technische disciplines te combineren in één bedrijf, bieden wij een unieke service. U heeft één aanspreekpunt voor al uw technische behoeften, van beveiligingscamera\'s tot geluidssystemen en voertuigonderhoud. Persoonlijk contact en korte lijnen maken het verschil.',
+    description: 'Door installaties en audio te combineren in één bedrijf, bieden wij een unieke service. U heeft één aanspreekpunt voor al uw technische behoeften, van beveiligingscamera\'s tot geluidssystemen. Persoonlijk contact en korte lijnen maken het verschil.',
   },
   {
     icon: Wrench,
@@ -73,16 +73,16 @@ export default function OverOns() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollReveal>
             <p className="text-xl lg:text-2xl text-[#0F0F10]/70 leading-relaxed font-light">
-              Bij RPX Solutions geloven wij dat <span className="text-[#0F0F10] font-semibold">betrouwbaarheid</span>, <span className="text-[#0F0F10] font-semibold">flexibiliteit</span> en <span className="text-[#0F0F10] font-semibold">vakmanschap</span> de basis vormen van elke succesvolle samenwerking. Door installaties, audio en auto care te combineren, bieden wij een uniek serviceconcept met één vertrouwd aanspreekpunt.
+              Bij RPX Solutions geloven wij dat <span className="text-[#0F0F10] font-semibold">betrouwbaarheid</span>, <span className="text-[#0F0F10] font-semibold">flexibiliteit</span> en <span className="text-[#0F0F10] font-semibold">vakmanschap</span> de basis vormen van elke succesvolle samenwerking. Door installaties en audio te combineren, bieden wij een uniek serviceconcept met één vertrouwd aanspreekpunt.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>
             <div className="grid grid-cols-3 gap-8 mt-16">
               <div>
-                <div className="text-3xl lg:text-4xl font-black text-[#0F0F10]">
-                  <AnimatedCounter end={3} />
-                </div>
+                  <div className="text-3xl lg:text-4xl font-black text-[#0F0F10]">
+                    <AnimatedCounter end={2} />
+                  </div>
                 <p className="text-[#0F0F10]/40 text-sm mt-1">Disciplines</p>
               </div>
               <div>

@@ -53,14 +53,14 @@ const services = [
     icon: Wrench,
     title: 'Vastgoedonderhoud',
     description: 'Technisch onderhoud voor vastgoed en VvE\'s. Preventief en correctief onderhoud aan technische installaties.',
-    benefits: ['Preventief onderhoud', 'Storingsdienst', 'VvE onderhoud', 'Elektra installatie'],
+    benefits: ['Elektra Installatie', 'Storingsdienst', 'Preventief onderhoud', 'Reparatie Werkzaamheden'],
     image: HERO_IMG,
   },
   {
     icon: Building,
     title: 'Zakelijke Diensten',
     description: 'Volledige technische installaties voor bedrijfspanden, kantoren en winkels. Beveiligingssystemen, netwerk en AV-oplossingen.',
-    benefits: ['Kantoorinrichting', 'Vergaderruimte AV', 'Beveiligingssystemen', 'Onderhoudscontracten', 'Technische dienst werkzaamheden' ],
+    benefits: ['Kantoorinrichting', 'AV voor Vergaderruimtes', 'Beveiligingssystemen', 'Onderhoudscontracten', 'Technische dienst werkzaamheden' ],
     image: NETWORK_IMG,
   },
   {

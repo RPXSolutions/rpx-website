@@ -5,7 +5,7 @@ import ScrollReveal from '../rpx/ScrollReveal';
 const stats = [
   { value: 5, suffix: '+', label: 'Jaar ervaring' },
   { value: 100, suffix: '%', label: 'Klanttevredenheid' },
-  { value: 3, suffix: '', label: 'Disciplines' },
+  { value: 2, suffix: '', label: 'Disciplines' },
   { value: 7, suffix: '/7', label: 'Dagen bereikbaar' },
 ];
 

@@ -39,7 +39,7 @@ export default function HeroSection() {
           >
             <div className="w-2 h-2 rounded-full bg-[#B5121B] animate-pulse" />
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-white/50">
-              Installaties · Audio · Auto Care
+              Installaties · Audio 
             </span>
           </motion.div>
 
@@ -62,7 +62,7 @@ export default function HeroSection() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="mt-8 text-lg sm:text-xl text-white/50 max-w-xl leading-relaxed"
           >
-            RPX Solutions levert hoogwaardige installaties, professionele audio-oplossingen en voertuigservices voor zowel particuliere als zakelijke klanten.
+            RPX Solutions levert hoogwaardige installaties en professionele audio-oplossingen voor zowel particuliere als zakelijke klanten.
           </motion.p>
 
           <motion.div

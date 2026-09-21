@@ -3,7 +3,7 @@ const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Wifi, Music, Car } from 'lucide-react';
+import { ArrowUpRight, Wifi, Music, Wrench } from 'lucide-react';
 import ScrollReveal from '../rpx/ScrollReveal';
 import SectionHeader from '../rpx/SectionHeader';
 
@@ -25,12 +25,12 @@ const services = [
     stats: ['Live Bands', 'DJ Sets', 'Festivals', 'FOH'],
   },
   {
-    title: 'RPX Auto Care',
-    description: 'Premium voertuig-audio upgrades en detailing. Van DSP-installaties tot keramische coatings en polijstwerk.',
-    image:  '/images/Auto.png',
-    icon: Car,
-    path: '/auto-care',
-    stats: ['DSP', 'Subwoofers', 'Coatings', 'Detailing'],
+    title: 'Over Ons',
+    description: 'Wilt u meer informatie over onze werkwijze of mogelijkheden? Klik hier voor meer informatie.',
+    image:  '/images/Hero.png',
+    icon: Wrench,
+    path: '/over-ons',
+    stats: ['Maatwerk', 'Installatie', 'Audioservice',],
   },
 ];
 
@@ -42,8 +42,8 @@ export default function ServiceTriad() {
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeader
           label="Onze Diensten"
-          title="Drie Disciplines, Één Partner"
-          description="Van technische installaties tot live audio en voertuigverzorging — RPX Solutions combineert expertise in één bedrijf."
+          title="Twee Disciplines, Één Partner"
+          description="Van technische installaties tot live audio — RPX Solutions combineert expertise in één bedrijf."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

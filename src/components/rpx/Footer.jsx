@@ -6,10 +6,10 @@ const quickLinks = [
   { label: 'Home', path: '/' },
   { label: 'Installaties', path: '/installaties' },
   { label: 'Audio Service', path: '/audio-service' },
-  { label: 'Auto Care', path: '/auto-care' },
   { label: 'Portfolio', path: '/portfolio' },
   { label: 'Over Ons', path: '/over-ons' },
   { label: 'Contact', path: '/contact' },
+  
 ];
 
 const legalLinks = [
@@ -30,7 +30,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-6">
-              Uw partner voor audio, installaties & auto care. Vakbekwame technische oplossingen voor particulier en zakelijk.
+              Uw partner voor audio & installaties. Vakbekwame technische oplossingen voor particulier en zakelijk.
             </p>
             <div className="flex items-center gap-3">
               <a
@@ -117,7 +117,8 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-[#B5121B] mt-0.5 flex-shrink-0" />
-                <span className="text-white/40 text-sm">Nederland</span>
+                <span className="text-white/40 text-sm">Nederland,
+                KVK: 1234567</span>
               </li>
             </ul>
           </div>

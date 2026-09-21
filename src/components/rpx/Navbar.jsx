@@ -7,10 +7,10 @@ const navLinks = [
   { label: 'Home', path: '/' },
   { label: 'Installaties', path: '/installaties' },
   { label: 'Audio Service', path: '/audio-service' },
-  { label: 'Auto Care', path: '/auto-care' },
   { label: 'Portfolio', path: '/portfolio' },
   { label: 'Over Ons', path: '/over-ons' },
   { label: 'Contact', path: '/contact' },
+  
 ];
 
 export default function Navbar() {

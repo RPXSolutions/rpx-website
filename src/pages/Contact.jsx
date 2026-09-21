@@ -180,7 +180,7 @@ export default function Contact() {
                           <option value="" className="bg-[#232323]">Selecteer onderwerp</option>
                           <option value="installaties" className="bg-[#232323]">Installaties</option>
                           <option value="audio" className="bg-[#232323]">Audio Service</option>
-                          <option value="autocare" className="bg-[#232323]">Auto Care</option>
+                          <option value="maatwerk" className="bg-[#232323]">Maatwerk</option>
                           <option value="offerte" className="bg-[#232323]">Offerte aanvraag</option>
                           <option value="overig" className="bg-[#232323]">Overig</option>
                         </select>

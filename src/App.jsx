@@ -10,7 +10,6 @@ import Layout from './components/rpx/Layout';
 import Home from './pages/Home';
 import Installaties from './pages/Installaties';
 import AudioService from './pages/AudioService';
-import AutoCare from './pages/AutoCare';
 import DetailingPakketten from './pages/DetailingPakketten';
 import Portfolio from './pages/Portfolio';
 import OverOns from './pages/OverOns';
@@ -44,7 +43,6 @@ const AuthenticatedApp = () => {
         <Route path="/" element={<Home />} />
         <Route path="/installaties" element={<Installaties />} />
         <Route path="/audio-service" element={<AudioService />} />
-        <Route path="/auto-care" element={<AutoCare />} />
         <Route path="/detailing-pakketten" element={<DetailingPakketten />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/over-ons" element={<OverOns />} />
